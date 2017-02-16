@@ -1,0 +1,13 @@
+body {
+  font-family: $font-stack-sans;
+}
+
+img, svg, video, audio {
+  max-width: 100%;
+}
+
+.u-cf:after {
+  content: "";
+  display: table;
+  clear: both;
+}
